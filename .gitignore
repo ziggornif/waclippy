@@ -1,0 +1,6 @@
+node_modules/
+test-results/
+playwright-report/
+dist/
+*.tgz
+Image générée 1.png

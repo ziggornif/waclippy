@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0">
+  <title>Waclippy — Un petit caractère sur votre site.</title>
+  <link rel="stylesheet" href="/demo/style.css">
+</head>
+<body>
+  <header><a class="brand" href="/">↳ waclippy<span>®? wah.</span></a><a href="#integration">Le module <span>↗</span></a></header>
+  <main>
+    <div class="eyebrow"><span></span> ASSISTANT DE BUREAU, ESPRIT DE RIVALITÉ</div>
+    <h1>Votre site a trouvé<br>son <em>petit caractère.</em></h1>
+    <p class="intro">Un trombone. Une moustache. Beaucoup d’opinions.<br>Le compagnon un peu trop impliqué dans votre réussite.</p>
+    <div class="toolbar"><button id="hello" class="primary">Fais les présentations <span>↗</span></button><a class="secondary" href="#playground">Jouer avec Waclippy ↓</a></div>
+    <div class="note">VANILLA JS <span>✦</span> ZÉRO DÉPENDANCE <span>✦</span> UN MAXIMUM DE WAH</div>
+    <section id="playground" class="playground">
+      <div class="section-head"><div><span class="index">01 / LE TERRAIN DE JEU</span><h2>Faites-le réagir.</h2></div><span class="live"><i></i> En direct sur cette page</span></div>
+      <div class="cards">
+        <button class="card" data-animation="wave"><span class="icon">✳</span><strong>Un petit bonjour</strong><span>Il sait se faire remarquer.</span><span class="arrow">↗</span></button>
+        <button class="card" data-animation="think"><span class="icon">?</span><strong>Une grande question</strong><span>Il a peut-être la réponse.</span><span class="arrow">↗</span></button>
+        <button class="card" data-animation="celebrate"><span class="icon">✷</span><strong>Une petite victoire</strong><span>Ça mérite un « Wah ! ».</span><span class="arrow">↗</span></button>
+        <button class="card" data-animation="point"><span class="icon">↗</span><strong>Regarde par ici</strong><span>Le fil se déplie pour pointer.</span><span class="arrow">↗</span></button>
+        <button class="card" data-animation="fold"><span class="icon">↯</span><strong>Se faire tout petit</strong><span>Un trombone, ça se replie.</span><span class="arrow">↗</span></button>
+        <button class="card" data-animation="surprised"><span class="icon">!</span><strong>Quelle surprise !</strong><span>Sa casquette en décolle.</span><span class="arrow">↗</span></button>
+        <button class="card" data-animation="sleep"><span class="icon">zZ</span><strong>Une micro-sieste</strong><span>Replié, les yeux fermés.</span><span class="arrow">↗</span></button>
+      </div>
+      <form id="message-form"><label for="message">À vous de lui donner la parole</label><div class="input-row"><input id="message" name="message" placeholder="On dirait que vous essayez de gagner…" maxlength="500" required><button type="submit">Faire parler ↗</button></div></form>
+      <div class="settings"><label>Son coin préféré <select id="position"><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option></select></label><button id="visibility" aria-pressed="false">Masquer l’assistant</button></div>
+    </section>
+    <section id="integration" class="integration"><div><span class="index">02 / CHEZ VOUS EN QUELQUES LIGNES</span><h2>Petit module.<br>Grande personnalité.</h2><p>Une API simple, des dialogues à votre sauce.<br>React, Vue, ou juste une page HTML.</p><span class="package-note">Prototype local · paquet npm non publié</span></div><pre><code><span class="muted">// Après installation du paquet local</span>
+<span class="purple">import</span> { createWaclippy } <span class="purple">from</span> 'waclippy';
+
+<span class="purple">const</span> wa = createWaclippy();
+
+wa.say('Un coup de main ?', [
+  {
+    label: 'Wah !',
+    onClick: () =&gt; wa.animate('celebrate')
+  }
+]);</code></pre></section>
+    <footer><span>waclippy / une expérience de nostalgie interactive</span><span>Fait avec un soupçon de mauvaise foi. ✳</span></footer>
+  </main>
+  <script type="module" src="/demo/main.js"></script>
+</body>
+</html>

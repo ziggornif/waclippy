@@ -2,7 +2,7 @@
 
 Un assistant façon Clippy, avec un trombone violet inspiré de Waluigi et du visuel fourni. SVG animé, bulle rétro et boutons personnalisables. Aucun appel réseau, aucune dépendance à l’exécution, aucun framework requis.
 
-[![Vidéo de présentation de Waclippy](assets/waclippy-presentation.png)](assets/waclippy-presentation.mp4)
+[![Vidéo de présentation de Waclippy](assets/waclippy-presentation.png)](https://github.com/user-attachments/assets/7812f3a2-5ee8-4a31-8ad2-05a278eea6a9)
 
 ## Lancer la démo
 

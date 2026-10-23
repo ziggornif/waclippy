@@ -2,7 +2,7 @@
 
 Un assistant façon Clippy, avec un trombone violet inspiré de Waluigi et du visuel fourni. SVG animé, bulle rétro et boutons personnalisables. Aucun appel réseau, aucune dépendance à l’exécution, aucun framework requis.
 
-[![Vidéo de présentation de Waclippy](assets/waclippy-presentation.png)](https://github.com/user-attachments/assets/7812f3a2-5ee8-4a31-8ad2-05a278eea6a9)
+https://github.com/user-attachments/assets/7812f3a2-5ee8-4a31-8ad2-05a278eea6a9
 
 ## Lancer la démo
 
@@ -30,16 +30,8 @@ Ces commandes permettent de vérifier localement le site généré. L’image de
 
 ## Installer le module dans un autre projet
 
-Le paquet n’est pas encore publié sur npm. Depuis ce dépôt :
-
 ```sh
-npm pack
-```
-
-Puis, dans le projet qui l’utilisera :
-
-```sh
-npm install /chemin/vers/waclippy/waclippy-0.1.0.tgz
+npm install waclippy
 ```
 
 ```js
@@ -105,4 +97,8 @@ Les tests navigateur couvrent les dialogues, le clavier, les callbacks asynchron
 
 ## Périmètre du prototype
 
-Le personnage est une interprétation vectorielle du visuel, pas un détourage ni une reproduction de son rendu 3D. Les dialogues sont scénarisés : aucune IA ni backend n’est nécessaire. Le module cible les pages HTML classiques des navigateurs modernes ; les politiques CSP strictes peuvent nécessiter une adaptation des styles intégrés. La publication npm reste à faire.
+Le personnage est une interprétation vectorielle du visuel, pas un détourage ni une reproduction de son rendu 3D. Les dialogues sont scénarisés : aucune IA ni backend n’est nécessaire. Le module cible les pages HTML classiques des navigateurs modernes ; les politiques CSP strictes peuvent nécessiter une adaptation des styles intégrés.
+
+## Licence
+
+[MIT](LICENSE)

@@ -1,14 +1,24 @@
 {
   "name": "waclippy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Un assistant trombone violet, animé et indépendant de tout framework.",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/ziggornif/waclippy.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziggornif/waclippy.git"
+  },
   "homepage": "https://ziggornif.github.io/waclippy/",
   "bugs": "https://github.com/ziggornif/waclippy/issues",
   "type": "module",
-  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
-  "files": ["src"],
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
   "sideEffects": false,
   "scripts": {
     "dev": "node scripts/serve.mjs",
@@ -20,6 +30,10 @@
     "check": "node --check src/index.js && node --check src/art.js && node --check src/styles.js && node --check src/animation.js",
     "prepack": "npm run check && npm run test:unit"
   },
-  "devDependencies": { "@playwright/test": "^1.56.0" },
-  "engines": { "node": ">=24" }
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
 }

@@ -2,6 +2,8 @@
 
 Un assistant façon Clippy, avec un trombone violet inspiré de Waluigi et du visuel fourni. SVG animé, bulle rétro et boutons personnalisables. Aucun appel réseau, aucune dépendance à l’exécution, aucun framework requis.
 
+[![Vidéo de présentation de Waclippy](assets/waclippy-presentation.png)](assets/waclippy-presentation.mp4)
+
 ## Lancer la démo
 
 Avec **Node 24 LTS**, indiqué dans `.node-version` (avec fnm : `fnm use`) :

@@ -17,5 +17,5 @@
     "prepack": "npm run check && npm run test:unit"
   },
   "devDependencies": { "@playwright/test": "^1.56.0" },
-  "engines": { "node": ">=20" }
+  "engines": { "node": ">=24" }
 }

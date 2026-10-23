@@ -4,7 +4,7 @@ Un assistant façon Clippy, avec un trombone violet inspiré de Waluigi et du vi
 
 ## Lancer la démo
 
-Avec Node 20+ (ou `fnm use default`) :
+Avec **Node 24 LTS**, indiqué dans `.node-version` (avec fnm : `fnm use`) :
 
 ```sh
 npm install
